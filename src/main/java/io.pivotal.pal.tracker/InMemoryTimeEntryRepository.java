@@ -2,12 +2,11 @@ package io.pivotal.pal.tracker;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class InMemoryTimeEntryRepository implements TimeEntryRepository {
 
-    List<TimeEntry> timeEntries = new ArrayList<>();
-    long currentId = 1L;
+    private List<TimeEntry> timeEntries = new ArrayList<>();
+    private long currentId = 1L;
 
     @Override
     public TimeEntry create(TimeEntry timeEntry) {
