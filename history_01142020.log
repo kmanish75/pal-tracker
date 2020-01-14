@@ -1,0 +1,310 @@
+    1  sudo apt update
+    2  sudo apt upgrade -y
+    3  sudo apt remove -y
+    4  hostname
+    5  sudo vi /etc/hostname
+    6  sudo apt update
+    7  sudo apt upgrade -y
+    8  sudo apt -y upgrade
+    9  chomd +x ~/Downloads/ubuntu_install.sh 
+   10  chmod +x ~/Downloads/ubuntu_install.sh 
+   11  ~/Downloads/ubuntu_install.sh 
+   12  cd /Down
+   13  mkdir ~/Downloads
+   14  mkdir -p ~/workspace/assignment-submission
+   15  cd ~/workspace/assignment-submission
+   16  gradle wrapper
+   17  touch build.gradle
+   18  idea .
+   19  idea build.gradle 
+   20  git log --graph --decorate --oneline --all
+   21  cd ..
+   22  git log --graph --decorate --oneline --all
+   23  unzip ~/Downloads/pal-tracker.zip .
+   24  unzip ~/Downloads/pal-tracker.zip
+   25  ll
+   26  cd pal-tracker/
+   27  git log --graph --decorate --oneline --all
+   28  git remote add
+   29  git remote add origin https://github.com/kmanish75/pal-tracker
+   30  git remote -v
+   31  git pus origin master --tags
+   32  git push origin master --tags
+   33  gradle wrapper --gradle-version 6.0.1 --distribution-type all
+   34  clear
+   35  history | grep build
+   36  touch build.gradle
+   37  ll
+   38  history
+   39  history | grep build
+   40  idea .
+   41  cf --help
+   42  cf login --help
+   43  cf login -a api.sys.evans.pal.pivotal.io -u manish.6.kumar@atos.net -p qx9wj9dt
+   44  cf target
+   45  ll
+   46  find build/
+   47  ./gradlew clean assemble
+   48  find build/
+   49  cf push -p build/libs/pal-tracker.jar
+   50  cf push pal-tracker -p build/libs/pal-tracker.jar
+   51  cf push --random-route -p build/libs/pal-tracker.jar
+   52  cf push -p build/libs/pal-tracker.jar --random-route
+   53  cf push pal-tracker -p build/libs/pal-tracker.jar --random-route
+   54  cf push pal-tracker -p build/libs/pal-tracker.jar --random-route --no-start
+   55  cf set-env pal-tracker JBP_CONFIG_OPEN_JDK_JRE '{ jre: { version: 11.+ } }'
+   56  cf start pal-tracker
+   57  git add .
+   58  git st
+   59  git status
+   60  rm -Rfv out
+   61  git st
+   62  git add .
+   63  git status
+   64  git add .
+   65  git commit -m "Build a spring boot app. Initial Commit."
+   66  git config --global user.email "kmanish75@gmail.com"
+   67  git config --global user.name "Manish Kumar"
+   68  git commit -m "Build a spring boot app. Initial Commit."
+   69  git push
+   70  Aclear
+   71  git push
+   72  clear
+   73  cd ../assignment-submission/
+   74  ./gradlew cloudNativeDeveloperSimpleApp -PserverUrl=http://pal-tracker-timely-impala.apps.evans.pal.pivotal.io/
+   75  killall -9 java
+   76  apt-get install flycut
+   77  sudo apt-get install flycut
+   78  cf apps
+   79  cf routes
+   80  history -w
+   81  mkdir -p ~/workspace/assignment-submission
+   82  cd ~/workspace/assignment-submission
+   83  gradle wrapper
+   84  touch build.gradle
+   85  idea .
+   86  idea build.gradle 
+   87  git log --graph --decorate --oneline --all
+   88  cd ..
+   89  git log --graph --decorate --oneline --all
+   90  unzip ~/Downloads/pal-tracker.zip .
+   91  unzip ~/Downloads/pal-tracker.zip
+   92  ll
+   93  cd pal-tracker/
+   94  git log --graph --decorate --oneline --all
+   95  git remote add
+   96  git remote add origin https://github.com/kmanish75/pal-tracker
+   97  git remote -v
+   98  git pus origin master --tags
+   99  git push origin master --tags
+  100  gradle wrapper --gradle-version 6.0.1 --distribution-type all
+  101  clear
+  102  history | grep build
+  103  touch build.gradle
+  104  ll
+  105  history
+  106  history | grep build
+  107  idea .
+  108  cf --help
+  109  cf login --help
+  110  cf login -a api.sys.evans.pal.pivotal.io -u manish.6.kumar@atos.net -p qx9wj9dt
+  111  cf target
+  112  ll
+  113  find build/
+  114  ./gradlew clean assemble
+  115  find build/
+  116  cf push -p build/libs/pal-tracker.jar
+  117  cf push pal-tracker -p build/libs/pal-tracker.jar
+  118  cf push --random-route -p build/libs/pal-tracker.jar
+  119  cf push -p build/libs/pal-tracker.jar --random-route
+  120  cf push pal-tracker -p build/libs/pal-tracker.jar --random-route
+  121  cf push pal-tracker -p build/libs/pal-tracker.jar --random-route --no-start
+  122  cf set-env pal-tracker JBP_CONFIG_OPEN_JDK_JRE '{ jre: { version: 11.+ } }'
+  123  cf start pal-tracker
+  124  git add .
+  125  git st
+  126  git status
+  127  rm -Rfv out
+  128  git st
+  129  git add .
+  130  git status
+  131  git add .
+  132  git commit -m "Build a spring boot app. Initial Commit."
+  133  git config --global user.email "kmanish75@gmail.com"
+  134  git config --global user.name "Manish Kumar"
+  135  git commit -m "Build a spring boot app. Initial Commit."
+  136  git push
+  137  Aclear
+  138  git push
+  139  clear
+  140  cd ../assignment-submission/
+  141  ./gradlew cloudNativeDeveloperSimpleApp -PserverUrl=http://pal-tracker-timely-impala.apps.evans.pal.pivotal.io/
+  142  killall -9 java
+  143  apt-get install flycut
+  144  sudo apt-get install flycut
+  145  cf apps
+  146  cf routes
+  147  history -w
+  148  whistory | grep cf
+  149  history | grep cf
+  150  cf
+  151  cf cli
+  152  cf apps
+  153  cd ..
+  154  ll
+  155  cd pal-tracker/
+  156  git status
+  157  git reset
+  158  git status
+  159  git reset --hard
+  160  git status
+  161  git cherry-pick deployment-start
+  162  WELCOME_MESSAGE=hello ./gradlew bootRun
+  163  WELCOME_MESSAGE=helloZXZXASDFSDGFSDFG ./gradlew bootRun
+  164  WELCOME_MESSAGE=DFG ./gradlew bootRun
+  165  killall -9 java
+  166  WELCOME_MESSAGE=DFG ./gradlew bootRun
+  167  cf logs
+  168  ./gradlew clean build
+  169  find build
+  170  history | grep
+  171  history | grep push
+  172  cf push pal-tracker -p build/libs/pal-tracker.jar --random-route --no-start
+  173  cf logs
+  174  cf logs pal-tracker --recent
+  175  cf logs pal-tracker
+  176  cf logs pal-tracker --recent
+  177  cf apps
+  178  cf routes
+  179  cf push pal-tracker -p build/libs/pal-tracker.jar --random-route
+  180  cf logs pal-tracker --recent
+  181  history | grep set-env
+  182  cf set-env pal-tracker WELCOME_MESSAGE "Hello World!"
+  183  cf restage pal-tracker
+  184  cf scale
+  185  cf scale pal-tracker -i 3
+  186  cf scale pal-tracker -i 1
+  187  cf set-env pal-tracker WELCOME_MESSAGE "Hello from Cloud Foundry."
+  188  cf restage pal-tracker
+  189  cf delete pal-tracker
+  190  ./gradlew clean build
+  191  cf help
+  192  cf push help
+  193  cf delete help
+  194  cf push --help
+  195  cf push pal-tracker -f manifest.yml
+  196  git add .
+  197  git status
+  198  git commit -m "Lab 3: place your configuration in the app."
+  199  git push
+  200  cd ~/workspace/assignment-submission
+  201  ./gradlew cloudNativeDeveloperCloudFoundry -PserverUrl=http://pal-tracker-sleepy-quoll.apps.evans.pal.pivotal.io/
+  202  sudo apt-get install guake
+  203  exit
+  204  cd workspace/
+  205  lll
+  206  ll
+  207  cd pal-tracker/
+  208  history
+  209  cls
+  210  cf push
+  211  cf push pal-tracker -p build/libs/pal-tracker.jar --random-route --no-start
+  212  cf
+  213  history
+  214  cf target
+  215  git status
+  216  git cherry-pick pipeline-start
+  217  git add ,
+  218  git add .
+  219  git commit -m "modified yml commit"
+  220  git push
+  221  cf target
+  222  cf login
+  223  git log
+  224  cf target
+  225  cf login -a api.sys.evans.pal.pivotal.io -u manish.6.kumar@atos.net -p qx9wj9dt
+  226  git add .
+  227  git commit -m "Update the route in the manifest.yml"
+  228  git push
+  229  cd ~/workspace/assignment-submission
+  230  ./gradlew cloudNativeDeveloperReviewPipeline -PreviewUrl=https://pal-tracker-manish-kumar.apps.evans.pal.pivotal.io/
+  231  uname
+  232  uname -a
+  233  lsproc
+  234  cat /proc/
+  235  cat /proc/version
+  236  cat /proc/*
+  237  cat /proc/cpuinfo 
+  238  free -m
+  239  lsblock
+  240  lsblk 
+  241  lsblk -h
+  242  lsblk
+  243  cat /proc/cpuinfo 
+  244  frere -m
+  245  free -m
+  246  free -g
+  247  lsblk
+  248  exit
+  249  killall -9 guake
+  250  guake
+  251  bg
+  252  exit
+  253  curl -i localhost:8080/time-entries
+  254  curl -i -XPOST -H"Content-Type: application/json" localhost:8080/time-entries -d"{\"projectId\": 1, \"userId\": 2, \"date\": \"2019-01-01\", \"hours\": 8}"
+  255  curl -i localhost:8080/time-entries/${TIME_ENTRY_ID}
+  256  curl -i localhost:8080/time-entries/1
+  257  curl -i -XPUT -H"Content-Type: application/json" localhost:8080/time-entries/1 -d"{\"projectId\": 88, \"userId\": 99, \"date\": \"2019-01-01\", \"hours\": 8}"
+  258  curl -i localhost:8080/time-entries/1
+  259  curl -i -XDELETE -H"Content-Type: application/json" localhost:8080/time-entries/1
+  260  curl -i localhost:8080/time-entries/1
+  261  curl -i localhost:8080/time-entries
+  262  git status
+  263  git add .
+  264  git st
+  265  git status
+  266  git commit -m "time entry assignment submission"
+  267  git push
+  268  cf target
+  269  cd ..
+  270  cd assignment-submission/
+  271  ./gradlew cloudNativeDeveloperRest -PserverUrl=https://pal-tracker-manish-kumar.apps.evans.pal.pivotal.io
+  272  cd ..
+  273  cd pal-tracker/
+  274  ./gradlew clean build
+  275  git status
+  276  git add .
+  277  git commit -m "refactor find method"
+  278  git push
+  279  ./gradlew clean build
+  280  git add .
+  281  git commit -m "more refactor"
+  282  git cherry-pick migration-start
+  283  cf marketplace
+  284  cf marketplace --help
+  285  cf marketplace
+  286  cf create-service --help
+  287  cf create-service p.mysql db-small tracker-database
+  288  cf service tracker-database
+  289  mysql -uroot < databases/tracker/create_databases.sql
+  290  cf service tracker-database
+  291  flyway -url="jdbc:mysql://localhost:3306/tracker_dev" -locations=filesystem:databases/tracker clean migrate
+  292  mysql -uroot < databases/tracker/create_databases.sql
+  293  flyway -url="jdbc:mysql://localhost:3306/tracker_dev" -locations=filesystem:databases/tracker clean migrate
+  294  flyway -url="jdbc:mysql://localhost:3306/tracker_test" -locations=filesystem:databases/tracker clean migrate
+  295  mysql -u tracker
+  296  cf service tracker-database
+  297  cf bind-service
+  298  cf bind-service pal-tracker tracker-database
+  299  cf service tracker-database
+  300  git status
+  301  git add .
+  302  git commit -m "Add database migrations"
+  303  git push
+  304  cd ..
+  305  cd assignment-submission/
+  306  ./gradlew cloudNativeDeveloperDatabaseMigrations -PserverUrl=https://pal-tracker-manish-kumar.apps.evans.pal.pivotal.io
+  307  cd ..
+  308  cd pal-tracker/
+  309  history
+  310  history > history.log
