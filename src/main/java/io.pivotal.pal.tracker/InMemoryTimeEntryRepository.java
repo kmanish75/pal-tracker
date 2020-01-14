@@ -19,12 +19,7 @@ public class InMemoryTimeEntryRepository implements TimeEntryRepository {
 
     @Override
     public TimeEntry find(long timeEntryId) {
-        List<TimeEntry> list = timeEntries.stream().filter(timeEntry -> timeEntry.getId() == timeEntryId).collect(Collectors.toList());
-        if (list.size() > 0) {
-            return list.get(0);
-        } else {
-            return null;
-        }
+        return timeEntries.stream().filter(timeEntry -> timeEntry.getId() == timeEntryId).findFirst().orElse(null);
     }
 
     @Override
