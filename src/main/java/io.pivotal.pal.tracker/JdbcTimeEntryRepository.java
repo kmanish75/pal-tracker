@@ -54,37 +54,25 @@ public class JdbcTimeEntryRepository implements TimeEntryRepository {
 
     @Override
     public List<TimeEntry> list() {
-       return jdbcTemplate.query("SELECT id, project_id, user_id, date, hours FROM time_entries",
-                mapper);
+       return jdbcTemplate.query("SELECT id, project_id, user_id, date, hours FROM time_entries", mapper);
     }
 
     @Override
     public TimeEntry update(long timeEntryId, TimeEntry timeEntry) {
-        jdbcTemplate.update(connection -> {
-            PreparedStatement statement = connection.prepareStatement(
-                    "UPDATE time_entries SET project_id =?, user_id =?, date = ?, hours = ? WHERE id = ?"
-            );
-
-            statement.setLong(1, timeEntry.getProjectId());
-            statement.setLong(2, timeEntry.getUserId());
-            statement.setDate(3, Date.valueOf(timeEntry.getDate()));
-            statement.setInt(4, timeEntry.getHours());
-            statement.setLong(5, timeEntryId);
-            return statement;
-        });
+        jdbcTemplate.update(
+                "UPDATE time_entries SET project_id =?, user_id =?, date = ?, hours = ? WHERE id = ?",
+                timeEntry.getProjectId(),
+                timeEntry.getUserId(),
+                Date.valueOf(timeEntry.getDate()),
+                timeEntry.getHours(),
+                timeEntryId);
 
         return find(timeEntryId);
     }
 
     @Override
     public void delete(long timeEntryId) {
-        jdbcTemplate.update(connection -> {
-            PreparedStatement statement = connection.prepareStatement(
-                    "DELETE FROM time_entries WHERE id = ?"
-            );
-            statement.setLong(1, timeEntryId);
-            return statement;
-        });
+        jdbcTemplate.update("DELETE FROM time_entries WHERE id = ?", timeEntryId);
     }
 
     private final RowMapper<TimeEntry> mapper = (rs, rowNum) -> new TimeEntry(
